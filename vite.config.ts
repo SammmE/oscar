@@ -14,5 +14,5 @@ export default defineConfig({
 	worker: {
 		format: 'es'
 	},
-    base: process.env.NODE_ENV === "production" ? "/oscar/" : "/",
+    base: "/",
 });
